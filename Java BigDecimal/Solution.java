@@ -20,9 +20,8 @@ class Solution{
                 BigDecimal bd2 = new BigDecimal((String)o2);
                 return bd2.compareTo(bd1);
             }
-        });        //Write your code here
+        }); 
 
-        //Output
         for(int i=0;i<n;i++)
         {
             System.out.println(s[i]);
